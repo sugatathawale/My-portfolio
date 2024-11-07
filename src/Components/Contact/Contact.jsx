@@ -42,16 +42,16 @@ const Contact = () => {
       <div className="contact-section">
         <div className="contact-left">
             <h1>Let's talk</h1>
-            <p>I'm currently avaliable to take on new projects, so feel free to send me a message about anything that you want me to work on. You can contact anytime.</p>
+            <p>Sugat Athawale is currently open and enthusiastic about taking on new projects and exploring fresh opportunities. With a solid background in frontend development and a readiness to tackle new challenges, he welcomes any project ideas or collaboration offers. Feel free to reach out anytime to discuss potential work!</p>
             <div className="contact-details">
                 <div className="contact-detail">
-                    <img src={mail_icon} alt="" /> <p>greatstackdev@gmail.com</p>
+                    <img src={mail_icon} alt="" /> <p>athawalesugat17@gmail.com</p>
                 </div>
                 <div className="contact-detail">
-                    <img src={call_icon} alt="" /> <p>+772-825-524</p>
+                    <img src={call_icon} alt="" /> <p>7083056736</p>
                 </div>
                 <div className="contact-detail">
-                    <img src={location_icon} alt="" /> <p>CA, United States</p>
+                    <img src={location_icon} alt="" /> <p>Mumbai,Maharashtra</p>
                 </div>
             </div>
         </div>
