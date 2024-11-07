@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  min-height: 100vh;
+  background: #161513;
+  color: white;
+  font-family: 'outfit';
+}
+.title-box{
+  position: relative;
+}
+.title-box h1{
+  padding: 0px 30px;
+  font-size: 60px;
+  font-weight: 600;
+}
+.title-box img{
+  width: 160px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+@media(max-width: 768px){
+
+  .about-title img{
+      width: 130px;
+      right: -20px;
+  }
+  .title-box h1{
+    padding: 0px;
+    font-size: 40px;
+  }
+  .title-box img{
+    width: 100px;
+    right: -40px;
+  }
+}
