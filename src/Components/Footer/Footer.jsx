@@ -22,10 +22,21 @@ const Footer = () => {
       <hr />
       <div className="footer-bottom">
         {/* <p className="footer-bottom-left">© 2023 Alex Bennett. All rights reserved.</p> */}
-        <div className="footer-bottom-right">
+        {/* <div className="footer-bottom-right">
             <p>linkeden</p>
             <p>GitHub</p>
             <p>Connect with me</p>
+        </div> */}
+        <div className="footer-bottom-right">
+              <a href="https://www.linkedin.com/in/sugat-athawale-870a51247/" target="_blank">
+          <p id='para'>LinkedIn</p>
+              </a>
+              <a href="https://github.com/sugatathawale">
+              <p id='para'>GitHub</p>
+            </a>
+            <a href="mailto:athawalesugat17@example.com">
+         <p id='para'>Connect with me</p>
+        </a>
         </div>
       </div>
     </div>
