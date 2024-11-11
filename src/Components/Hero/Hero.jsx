@@ -12,7 +12,12 @@ const Hero = () => {
       <p>I am a frontend developer from India , Build Hand to Hand projects</p>
       <div className="hero-action">
         <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></div>
-        <div className="hero-resume">My resume</div>
+        <div className="hero-resume">
+  <a href="https://drive.google.com/drive/folders/1PLULFBtxRPRYA0XeNNSv1j0QVHiKsrXF?usp=sharing" target="_blank" rel="noopener noreferrer">
+    My Resume
+  </a>
+</div>
+
       </div>
     </div>
   )
